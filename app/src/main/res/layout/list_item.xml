@@ -33,6 +33,7 @@
 
         <TextView
             android:id="@+id/title"
+            style="@style/SportsTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignBottom="@id/sportsImage"
@@ -42,6 +43,7 @@
 
         <TextView
             android:id="@+id/newsTitle"
+            style="@style/SportsDetailText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/sportsImage"
@@ -51,6 +53,7 @@
 
         <TextView
             android:id="@+id/subTitle"
+            style="@style/SportsDetailText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/newsTitle"
